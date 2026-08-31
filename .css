@@ -1,0 +1,118 @@
+
+body  {
+  font-family: Arial, sans-serif;
+  background-color: #36454F;
+  color: #36454F;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper  {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #36454F;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba (0,0,0,0.1);
+}
+
+h1  {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+h2  {
+  font-size: 24p;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #36454F;
+  padding-bottom: 8px;
+}
+
+section  {
+  margin-bottom: 30px;
+}
+
+#Producer-Photo img  {
+  max-width: 100%;
+  height: auto;
+}
+
+p  {
+  line-height: 1.6px;
+}
+
+ul  {
+  padding-left: 25px;
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+.several-link  {
+  color: #2563eb;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.several-link:hover  {
+  color: #7c3aed;
+  text-decoration: underline;
+}
+
+table  {
+  width: 100%;
+  border-collapse: collaspse;
+}
+
+th,
+td  {
+  border: 1px solid  #36454F;
+  padding: 12px;
+  text-align: left;
+}
+
+th  {
+  background-color: #36454F;
+}
+
+form  {
+  margin-top: 15px;
+}
+
+label  {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea  {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #36454F;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+input:focus,
+textarea:focus  {
+  outline: none;
+  border-color: #2563eb;
+}
+
+button  {
+  background-color: #36454F;
+  color: white;
+  padding: 10px  20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover  {
+  background-color:  #36454F;
+}
