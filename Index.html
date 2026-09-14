@@ -3,6 +3,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" hfref="styles.css">
 </head>
 
 <body>
@@ -81,21 +82,28 @@
 
 <section>
   <h2>Contact</h2>
+<form id="contact-form" action={mailto:jaytee@gmail.com} method="post">
+    <label for="name">      
+    </label>
+    <input 
+        type="text"
+        id="name"
+        name="name"
+        required
+        minLength={3}
+        max={40}
+     </input>
 
-  <form>
-    <label for="name"></label>
-      <input type="text" id="name"  name="name">
+    <label for="message">Message:  </label>
+        <textarea
+            id="id"
+            name="message"
+            required
+            >< </textarea>
+        
+        <input type="submit" value="send"></input>\
 
-      <br><br>
-
-      <label for="message">Your Message:</label>
-      <br><br>
-      <textarea id="message" name="message" rows="5" cols="40"></textarea>
-
-      <br><br>
-
-      <input type="submit" value="Submit">
-    </form>
+</form>
   </section>
 
   </div>                  
